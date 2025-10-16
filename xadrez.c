@@ -25,6 +25,16 @@ int main() {
         bispo++;
     } while (bispo <= 5);
 
+    //Mover cavalo
+    printf("\nMovendo cavalo: \n");
+    int cavalo = 1;
+    while (cavalo--) {
+        for (int i = 0; i < 2; i++) {
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+    }
+
     return 0;
 }
 
